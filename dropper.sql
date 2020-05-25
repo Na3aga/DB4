@@ -1,0 +1,15 @@
+DROP TABLE INVESTMENT;
+DROP TABLE STARTUP;
+DROP TABLE CITY;
+DROP TABLE Statecode;
+DROP TABLE Countrycode;
+DROP TABLE Market;
+DROP SEQUENCE invst_seq;
+DROP TRIGGER INVST_BIR;
+DROP TRIGGER insertstartup;
+DROP TRIGGER insertstcity;
+DROP PACKAGE startup_pack;
+DROP TYPE inv_table;
+DROP TYPE inv_data;
+DROP FUNCTION investments_by_Country;
+DROP PROCEDURE add_investment_to_startup;
